@@ -1,1 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a192f;
+    color: #fff;
+}
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #020c1b;
+}
+
+.navbar a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#0a192f, #020c1b);
+    text-align: center;
+}
+
+.btn {
+    background: #00aaff;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #112240;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.about, .contact {
+    padding: 50px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00aaff;
+    border: none;
+    color: white;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
